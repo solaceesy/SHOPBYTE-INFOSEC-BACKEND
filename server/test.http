@@ -1,0 +1,15 @@
+POST http://localhost:5000/api/devices
+Content-Type: application/json
+
+{
+  "assetTag": "LAP-001",
+  "serialNumber": "SN-987654321",
+  "brand": "Lenovo",
+  "model": "ThinkPad T14",
+  "category": "Laptop",
+  "specs": "Intel Core i5, 16GB RAM, 512GB SSD",
+  "status": "Available",
+  "assignedTo": "",
+  "purchaseDate": "2026-11-26",
+  "unitPrice": 55000
+}
